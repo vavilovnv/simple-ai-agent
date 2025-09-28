@@ -1,4 +1,4 @@
-## 🤖 A simple AI agent based on an offline LLM with a web search tool
+## 🤖 A simple AI agent with web search
 
 The AI agent can generate a response using the regular assistant and the thinking assistant, if necessary. Both assistants can use web search via the [Tavily](https://app.tavily.com/home) API.
 
