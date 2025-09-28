@@ -1,5 +1,7 @@
 ## 🤖 A simple AI agent with web search
 
+`Ru` Простой AI агент, "под капотом" которого два AI-ассистента - обычный и "думающий". Оба ассистента умеют в web-поиск. Ассистентами управляет модель-судья, которая решает, какому из ассистентов передать пользовательский запрос на доработку.
+
 The AI agent can generate a response using the regular assistant and the thinking assistant, if necessary. Both assistants can use web search via the [Tavily](https://app.tavily.com/home) API.
 
 To run the application, you need to use an LLM that supports the OpenAI API (the application uses integration from [langchain](https://python.langchain.com/docs/integrations/llms/openai/)).
@@ -30,3 +32,4 @@ uv sync
 ```bash
 python main.py
 ```
+
